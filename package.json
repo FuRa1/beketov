@@ -4,6 +4,7 @@
   "description": "NULL",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "node test/index.js"
   },
   "repository": {
@@ -15,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/fffuture/beketov/issues"
   },
-  "homepage": "https://github.com/fffuture/beketov#readme"
+  "homepage": "https://github.com/fffuture/beketov#readme",
+  "dependencies": {
+    "express": "^4.14.1"
+  },
+  "devDependencies": {
+    "request": "^2.79.0"
+  }
 }
