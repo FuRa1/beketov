@@ -18,7 +18,9 @@
   },
   "homepage": "https://github.com/fffuture/beketov#readme",
   "dependencies": {
-    "express": "^4.14.1"
+    "body-parser": "^1.16.0",
+    "express": "^4.14.1",
+    "uuid": "^3.0.1"
   },
   "devDependencies": {
     "request": "^2.79.0"
