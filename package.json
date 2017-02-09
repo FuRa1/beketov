@@ -1,0 +1,19 @@
+{
+  "name": "beketov",
+  "version": "1.0.0",
+  "description": "NULL",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fffuture/beketov.git"
+  },
+  "author": "fffuture",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fffuture/beketov/issues"
+  },
+  "homepage": "https://github.com/fffuture/beketov#readme"
+}
