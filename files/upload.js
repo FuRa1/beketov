@@ -7,7 +7,6 @@ function uploadHandler(req, res) {
   const file = fs.createWriteStream(`${path}/${filename}.png`);
 
   req.on('data', (data) => { 
-    console.log(1);
     file.write(data);
   })
   .on('end', (err) => {
