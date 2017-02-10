@@ -17,8 +17,8 @@ function uploadCase(url, filepath, status) {
 	  custom_file: {
 	      value:  fs.createReadStream(__dirname + filepath),
 	      options: {
-	        filename: 'topsecret.jpg',
-	        contentType: 'image/jpg'
+	        filename: '1.png',
+	        contentType: 'image/png'
 	      }
 		}
 	}
